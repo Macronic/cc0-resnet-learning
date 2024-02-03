@@ -2,3 +2,7 @@ tqdm==4.66.1
 pandas==2.2.0
 pygwalker==0.4.4
 pycountry==23.12.11
+scikit-learn==1.4.0
+lightning==2.1.4
+torch==2.1.2
+torchvision==2.1.2
