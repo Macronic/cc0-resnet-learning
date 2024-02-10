@@ -6,3 +6,6 @@ scikit-learn==1.4.0
 lightning==2.1.4
 torch==2.2.0
 torchvision==0.17.0
+python-magic==0.4.27
+atomicwrites==1.4.1
+
