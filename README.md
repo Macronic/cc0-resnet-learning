@@ -25,6 +25,7 @@ Results are presented in the table below.
 |Random Initialized ResNet|2024-02-07|1.5288|33.5%||
 |Museum CC0 ResNet|2024-02-07|1.5987|29.5%|Trained on 61k of images, 10 epochs|
 |Museum CC0 ResNet|2024-02-12|1.5557|28.8%|Trained on 125k of images, 13 epochs, changed RandomCropResize to resize, 25 classes, min. 500 images per class|
+|Museum CC0 ResNet|2024-02-14|1.5038|33.5%|Trained on 125k of images, 200 epochs, 25 classes, added a learning rate scheduler|
 
 For now, the trained ResNet has the same efficiency as an untrained ResNet.
 
