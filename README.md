@@ -9,6 +9,7 @@ Currently work-in-progress, is suppossed to be updated more or less daily with n
    1. CMA Collection Download
    2. MET Collection Download
    3. NGA Collection Download
+   4. AIC Collection Download
 2. Use Common Data Format Conversion to create a combined metadata file
 3. Use Data Preparation file to create dataset for the network to train on.
    You can look at Data Exploration for the work that was being done on creating the Data Preparation file.
@@ -26,8 +27,9 @@ Results are presented in the table below.
 |Museum CC0 ResNet|2024-02-07|1.5987|29.5%|Trained on 61k of images, 10 epochs|
 |Museum CC0 ResNet|2024-02-12|1.5557|28.8%|Trained on 125k of images, 13 epochs, changed RandomCropResize to resize, 25 classes, min. 500 images per class|
 |Museum CC0 ResNet|2024-02-14|1.5038|33.5%|Trained on 125k of images, 200 epochs, 25 classes, added a learning rate scheduler|
+|Museum CC0 ResNet|2024-02-22|1.3672|55.3%|Trained on 189k of images, 27 epochs, 51 classes, added AIC dataset, downloaded much more data, changed optimizer to SGD. Training is now much more chaotic.|
 
-For now, the trained ResNet has the same efficiency as an untrained ResNet.
+The trained ResNet, after adding much more data, is able to at last achieve a better score than a random network, showing it's possible to do learning transfer from it. 
 
 Readme should be updated weekly with progress on the work.
 
