@@ -31,6 +31,9 @@ Results are presented in the table below.
 |Museum CC0 ResNet|2024-02-22|1.3672|55.3%|Trained on 189k of images, 27 epochs, 51 classes, added AIC dataset, downloaded much more data, changed optimizer to SGD. Training is now much more chaotic.|
 |Museum CC0 ResNet|2024-02-22|1.2476|51.0%|Trained on 189k of images, 90 epochs, 51 classes.|
 |Museum CC0 ResNet|2024-03-04|1.1013|62.4%|Trained on 260k of images, 82 epochs, 58 classes, added GET dataset, downloaded more data.|
+|Museum CC0 ResNet|2024-04-05|1.2055*|49.7%*|Trained on 322k of images, 90 epochs, 69 classes, downloaded more data.|
+
+* - tested on repeating transfer learning 30 times.
 
 The trained ResNet, after adding much more data, is able to at last achieve a better score than a random network, showing it's possible to do learning transfer from it. 
 
